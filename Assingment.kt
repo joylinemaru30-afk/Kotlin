@@ -12,6 +12,15 @@ fun main(){
     println("The total is:$Divide")
 
 
+    val principle:Int=50000
+    val rate:Double=8.5
+    val time:Int=7
+
+    val intrest :Double=principle*rate*time/100
+
+    println("the simple intrest is $intrest")
+
+
 
 
 }
